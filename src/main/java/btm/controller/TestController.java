@@ -1,6 +1,7 @@
 package btm.controller;
 
 import btm.BusinessTravelManagementApplication;
+import btm.dto.ResponseDTO;
 import btm.util.Constant;
 import btm.util.URL;
 import org.apache.log4j.Logger;
@@ -22,7 +23,7 @@ public class TestController {
         logger.info(Constant.BEGIN_CONTROLLER + "getTest");
         try {
 
-            return new ResponseEntity("Hello world!!", HttpStatus.OK);
+            return new ResponseEntity(new ResponseDTO("Hello world"), HttpStatus.OK);
         }catch (Exception ex){
             logger.error(ex);
             return new ResponseEntity(HttpStatus.INTERNAL_SERVER_ERROR);
