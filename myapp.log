@@ -1,8 +1,0 @@
-2020-05-27 15:33:59 DEBUG BusinessTravelManagementApplication:32 - Starting Swagger
-2020-05-27 15:53:05 DEBUG BusinessTravelManagementApplication:32 - Starting Swagger
-2020-05-27 16:00:08 INFO  TestController:22 - Begin controller :getTest
-2020-05-27 16:00:08 INFO  TestController:30 - End controller :getTest
-2020-05-28 13:33:36 INFO  TestController:22 - Begin controller :getTest
-2020-05-28 13:33:36 INFO  TestController:30 - End controller :getTest
-2020-05-28 13:35:42 INFO  TestController:22 - Begin controller :getTest
-2020-05-28 13:35:42 INFO  TestController:30 - End controller :getTest
