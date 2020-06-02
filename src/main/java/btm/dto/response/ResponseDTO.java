@@ -1,4 +1,4 @@
-package btm.dto;
+package btm.dto.response;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;

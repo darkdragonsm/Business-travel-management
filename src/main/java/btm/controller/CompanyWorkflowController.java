@@ -1,8 +1,8 @@
 package btm.controller;
 
+import btm.dto.request.CompanyWorkflowRequest;
 import btm.dto.response.ResponseDTO;
-import btm.model.Company;
-import btm.service.CompanyService;
+import btm.service.CompanyWorkflowService;
 import btm.util.URL;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -12,12 +12,11 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping(URL.API)
-public class CompanyController {
+public class CompanyWorkflowController {
     @Autowired
-    private CompanyService companyService;
-
-    @PostMapping(URL.COMPANIES)
-    public ResponseDTO addCompany(@RequestBody Company company){
-        return companyService.addCompany(company);
+    private CompanyWorkflowService companyWorkflowService;
+    @PostMapping
+    public ResponseDTO assignWorkflowsToCompany(@RequestBody CompanyWorkflowRequest companyWorkflowRequest){
+        return companyWorkflowService.assignWorkflowsToCompany(companyWorkflowRequest);
     }
 }

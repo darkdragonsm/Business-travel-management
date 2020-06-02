@@ -1,4 +1,4 @@
-package btm.dto;
+package btm.dto.request;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -9,7 +9,8 @@ import java.util.List;
 @Getter
 @Setter
 @NoArgsConstructor
-public class WorkflowDTO {
+public class WorkflowRequest {
+    private int id;
     private String name;
     private List<String> steps;
 }

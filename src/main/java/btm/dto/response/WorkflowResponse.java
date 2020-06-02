@@ -1,23 +1,16 @@
-package btm.model;
+package btm.dto.response;
 
-import lombok.Data;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-import javax.persistence.*;
 import java.util.List;
 
-@Entity
 @Getter
 @Setter
 @NoArgsConstructor
-public class Workflow {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+public class WorkflowResponse {
     private int id;
     private String name;
-
-
-
+    private List<String> steps;
 }
