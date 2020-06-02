@@ -16,8 +16,7 @@ public class WorkflowStep {
     private int id;
     @ManyToOne
     private Workflow workflow;
-    @ManyToOne
-    private Step step;
+    private String step;
     private int stepOrder;
 
 }

@@ -24,4 +24,6 @@ public class Travel {
     private Workflow workflow;
     @ManyToOne
     private Employee employee;
+    @ManyToOne
+    private Company company;
 }

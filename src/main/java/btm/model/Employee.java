@@ -21,6 +21,6 @@ public class Employee {
     private String phone;
     @ManyToOne
     private Company company;
-    @ManyToMany
-    private List<Role> roles;
+    @ManyToOne
+    private Role role;
 }

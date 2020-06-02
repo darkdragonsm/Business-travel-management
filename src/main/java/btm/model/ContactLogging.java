@@ -1,24 +1,16 @@
 package btm.model;
 
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
-
 import javax.persistence.*;
+import java.sql.Date;
 import java.util.List;
 
 @Entity
-@Getter
-@Setter
-@NoArgsConstructor
-public class Task {
+public class ContactLogging {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
-    private String content;
+    private Date date;
     @ManyToOne
     private Travel travel;
-    @ManyToOne
-    private WorkflowStep step;
 
 }

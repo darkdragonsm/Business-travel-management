@@ -15,4 +15,8 @@ public class ResponseDTO {
     public ResponseDTO(String message) {
         this.message = message;
     }
+
+    public ResponseDTO(Object data) {
+        this.data = data;
+    }
 }

@@ -1,17 +1,15 @@
-package btm.model;
+package btm.dto;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
+import java.util.List;
 
-@Entity
 @Getter
 @Setter
 @NoArgsConstructor
-public class Step {
-    @Id
+public class WorkflowDTO {
     private String name;
+    private List<String> steps;
 }
