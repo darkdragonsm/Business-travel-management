@@ -29,4 +29,8 @@ public class Employee {
     private String status;
 
     private boolean isFirst;
+
+    private String name;
+
+    private boolean sex;
 }
