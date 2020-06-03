@@ -1,7 +1,7 @@
 package btm.controller;
 
 import btm.dto.response.ResponseDTO;
-import btm.model.Company;
+import btm.entity.Company;
 import btm.service.CompanyService;
 import btm.util.URL;
 import org.springframework.beans.factory.annotation.Autowired;

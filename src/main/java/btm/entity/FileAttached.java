@@ -1,4 +1,4 @@
-package btm.model;
+package btm.entity;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -15,6 +15,7 @@ import javax.persistence.ManyToOne;
 public class FileAttached {
     @Id
     private String url;
+
     @ManyToOne
     private Task task;
 }

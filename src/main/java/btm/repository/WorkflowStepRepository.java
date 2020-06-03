@@ -1,6 +1,6 @@
 package btm.repository;
 
-import btm.model.WorkflowStep;
+import btm.entity.WorkflowStep;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

@@ -1,7 +1,7 @@
 package btm.service;
 
 import btm.dto.response.ResponseDTO;
-import btm.model.Company;
+import btm.entity.Company;
 import btm.repository.CompanyRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

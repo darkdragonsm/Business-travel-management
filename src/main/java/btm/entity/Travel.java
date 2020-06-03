@@ -1,4 +1,4 @@
-package btm.model;
+package btm.entity;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -15,15 +15,23 @@ public class Travel {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
+
     private String location;
+
     private Date beginDate;
+
     private Date endDate;
+
     private String purpose;
+
     private String status;
+
     @ManyToOne
     private Workflow workflow;
+
     @ManyToOne
     private Employee employee;
+
     @ManyToOne
     private Company company;
 }

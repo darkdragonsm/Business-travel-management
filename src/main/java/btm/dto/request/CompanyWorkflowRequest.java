@@ -1,7 +1,7 @@
 package btm.dto.request;
 
-import btm.model.Company;
-import btm.model.Workflow;
+import btm.entity.Company;
+import btm.entity.Workflow;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;

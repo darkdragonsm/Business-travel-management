@@ -6,3 +6,43 @@
 2020-05-28 19:00:33 INFO  TestController:30 - End controller :getTest
 2020-06-02 20:19:06 INFO  TestController:23 - Begin controller :getTest
 2020-06-02 20:19:06 INFO  TestController:31 - End controller :getTest
+2020-06-03 13:50:32 INFO  EmployeeController:26 - Begin controller :createEmployees
+2020-06-03 13:50:32 INFO  EmployeeServiceImp:38 - Begin service :createEmployees
+2020-06-03 13:50:33 INFO  EmployeeServiceImp:68 - End service :createEmployees
+2020-06-03 13:50:33 INFO  EmployeeController:33 - End controller :createEmployees
+2020-06-03 14:06:05 INFO  EmployeeController:26 - Begin controller :createEmployees
+2020-06-03 14:06:05 INFO  EmployeeServiceImp:38 - Begin service :createEmployees
+2020-06-03 14:06:06 INFO  EmployeeServiceImp:68 - End service :createEmployees
+2020-06-03 14:06:06 INFO  EmployeeController:33 - End controller :createEmployees
+2020-06-03 14:11:12 INFO  EmployeeController:26 - Begin controller :createEmployees
+2020-06-03 14:11:12 INFO  EmployeeServiceImp:38 - Begin service :createEmployees
+2020-06-03 14:11:12 INFO  EmployeeServiceImp:68 - End service :createEmployees
+2020-06-03 14:11:12 INFO  EmployeeController:33 - End controller :createEmployees
+2020-06-03 14:14:11 INFO  EmployeeController:26 - Begin controller :createEmployees
+2020-06-03 14:14:11 INFO  EmployeeServiceImp:38 - Begin service :createEmployees
+2020-06-03 14:14:11 INFO  EmployeeServiceImp:71 - End service :createEmployees
+2020-06-03 14:14:11 ERROR EmployeeController:30 - java.lang.Exception: Role not found
+2020-06-03 14:14:11 INFO  EmployeeController:33 - End controller :createEmployees
+2020-06-03 14:16:02 INFO  EmployeeController:26 - Begin controller :createEmployees
+2020-06-03 14:16:02 INFO  EmployeeServiceImp:38 - Begin service :createEmployees
+2020-06-03 14:16:42 INFO  EmployeeServiceImp:71 - End service :createEmployees
+2020-06-03 14:16:45 ERROR EmployeeController:30 - java.lang.Exception: Role not found
+2020-06-03 14:16:47 INFO  EmployeeController:33 - End controller :createEmployees
+2020-06-03 14:18:42 INFO  EmployeeController:26 - Begin controller :createEmployees
+2020-06-03 14:18:42 INFO  EmployeeServiceImp:38 - Begin service :createEmployees
+2020-06-03 14:18:43 INFO  EmployeeServiceImp:71 - End service :createEmployees
+2020-06-03 14:18:43 ERROR EmployeeController:30 - java.lang.Exception: Role not found
+2020-06-03 14:18:43 INFO  EmployeeController:33 - End controller :createEmployees
+2020-06-03 14:19:51 INFO  EmployeeController:26 - Begin controller :createEmployees
+2020-06-03 14:19:51 INFO  EmployeeServiceImp:38 - Begin service :createEmployees
+2020-06-03 14:19:51 INFO  EmployeeServiceImp:71 - End service :createEmployees
+2020-06-03 14:19:51 ERROR EmployeeController:30 - java.lang.Exception: Role not found
+2020-06-03 14:19:51 INFO  EmployeeController:33 - End controller :createEmployees
+2020-06-03 14:24:38 INFO  EmployeeController:26 - Begin controller :createEmployees
+2020-06-03 14:24:38 INFO  EmployeeServiceImp:38 - Begin service :createEmployees
+2020-06-03 14:24:39 INFO  EmployeeServiceImp:71 - End service :createEmployees
+2020-06-03 14:24:39 INFO  EmployeeController:33 - End controller :createEmployees
+2020-06-03 14:39:59 INFO  EmployeeController:26 - Begin controller :createEmployees
+2020-06-03 14:39:59 INFO  EmployeeServiceImp:38 - Begin service :createEmployees
+2020-06-03 14:40:01 INFO  EmployeeServiceImp:76 - End service :createEmployees
+2020-06-03 14:40:01 INFO  EmployeeController:33 - End controller :createEmployees
