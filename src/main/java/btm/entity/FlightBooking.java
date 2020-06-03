@@ -1,4 +1,4 @@
-package btm.model;
+package btm.entity;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -6,19 +6,32 @@ import lombok.Setter;
 
 import javax.persistence.*;
 import java.sql.Date;
+import java.sql.Time;
 
 @Entity
 @Getter
 @Setter
 @NoArgsConstructor
-public class Expense {
+public class FlightBooking {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
+
     private Date date;
-    private String purpose;
+
+    private Time time;
+
+    private String departure;
+
+    private String arrival;
+
     private int price;
-    private String receiptFileUrl;
+
+    private String reservationCode;
+
+    private String ticketFileUrl;
+
     @ManyToOne
     private Travel travel;
+
 }

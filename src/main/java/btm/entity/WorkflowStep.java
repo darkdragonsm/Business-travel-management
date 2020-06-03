@@ -1,4 +1,4 @@
-package btm.model;
+package btm.entity;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -10,12 +10,16 @@ import javax.persistence.*;
 @Getter
 @Setter
 @NoArgsConstructor
-public class CompanyWorkflow {
+public class WorkflowStep {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
-    @ManyToOne
-    private Company company;
+
     @ManyToOne
     private Workflow workflow;
+
+    private String step;
+
+    private int stepOrder;
+
 }
